@@ -8,6 +8,7 @@ class Student:
     def display(self):
         print("Name:", self.name)
         print("Age:", self.age)
+        print("Name and Age:", self.name, self.age)
 
 
 obj = Student("Sahiba", 21)
